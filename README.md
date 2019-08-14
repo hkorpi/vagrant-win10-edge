@@ -10,3 +10,9 @@ The vagrant box `ms-win10-edge` can be downloaded and installed to vagrant using
 
 Virtual box guest additions should be installed either using vbguest plugin or 
 manually inserting VB guest addition CD image.
+
+After initial vagrant up the box should reloaded once if VB guest additions are not enabled.
+
+When licence is expired, recreate vm:
+- vagrant destroy
+- vagrant up
